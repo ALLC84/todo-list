@@ -62,11 +62,20 @@ export default {
 .custom__modal {
   position: absolute;
   top: 20px;
-  left: 10%;
+  left: 0;
+  right: 0;
   z-index: 11;
-  min-width: 80%;
+  max-width: 100%;
 }
 .custom__modal-content {
   background-color: rgb(218, 231, 240);
+}
+
+@media (min-width: 575px) {
+  .custom__modal {
+    left: 10%;
+    right: 10%;
+    min-width: 80%;
+  }
 }
 </style>
