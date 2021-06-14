@@ -1,6 +1,6 @@
 {
   "name": "Todo",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "author": "Alejandro Llorente",
   "scripts": {
@@ -28,10 +28,7 @@
     "env": {
       "node": true
     },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
+    "extends": ["plugin:vue/essential", "eslint:recommended"],
     "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
@@ -42,16 +39,7 @@
       "autoprefixer": {}
     }
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ],
-  "keywords": [
-    "vue",
-    "vuejs",
-    "Vuex",
-    "Todo"
-  ],
-  "description": "Simple todo with Vuejs"
+  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
+  "keywords": ["vue", "vuejs", "Vuex", "Todos", "vuedraggable", "sweetalert"],
+  "description": "Simple todo list with Vuejs"
 }

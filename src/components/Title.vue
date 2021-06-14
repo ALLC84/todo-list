@@ -6,7 +6,10 @@
 export default {
   name: "Title",
   props: {
-    text: String,
+    text: {
+      type: String,
+      default: "Titulo de la app",
+    },
   },
 };
 </script>
